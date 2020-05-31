@@ -12,8 +12,7 @@ let url = "https://hn.algolia.com/api/v1/search_by_date?page="
 class Home extends Component {
 
     state = {
-        news: [],
-        upvotearr: []        
+        news: []           
     }
 
     getUserData = () => {
@@ -31,15 +30,7 @@ class Home extends Component {
             .finally(function () {
                 // always executed
             });
-    }
-
-    upvote = (title) => {        
-        this.setState({upvotearr: [...this.state.upvotearr, title]})
-    }
-
-    unvote = (title) => {
-        this.setState({upvotearr: this.state.upvotearr.filter( item => item!==title )})
-    }
+    }    
 
     hide = (key) => {        
         const {news} = this.state
@@ -65,7 +56,7 @@ class Home extends Component {
                         <tbody>
                             <tr><td bgcolor="#ff6600"><Header /></td></tr>
                             <tr id="pagespace" style={{ height: "10px" }}></tr>
-                            <News news={news} upvote={this.upvote} unvote={this.unvote} upvotearr={this.state.upvotearr} hide={this.hide} />
+                            <News news={news} hide={this.hide} />
                             <PageOrder />
                             <hr/>
                             <Footer />

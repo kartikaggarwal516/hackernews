@@ -1,5 +1,7 @@
 import React from "react"
 import { connect } from "react-redux"
+import { bindActionCreators } from "redux"
+import {upvote, unvote} from "./Assets/Actions/Actions"
 
 const News = props => {
     return (
@@ -52,8 +54,15 @@ const News = props => {
 
 const mapStateToProps = store => {
     return {
-        activePage: store.page
+        activePage: store.page,
+        upvotearr: store.upvotearr
     }
 }
 
-export default connect(mapStateToProps, null)(News)
+const mapDispatchToProps = dispatch => {
+    return bindActionCreators(
+        {upvote, unvote},dispatch
+    )
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(News)
