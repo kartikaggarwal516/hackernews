@@ -35,3 +35,79 @@ td{
 .pagination li{
     margin-right: 20px;
 }
+
+.login{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.SignIn-form{
+    width: 370px;
+    height: 350px;
+    border: 1px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 80px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;    
+}
+
+.SignIn-form .SI-form-group{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+
+.SI-form-group input{
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    height: 35px;
+}
+
+.SignIn-form .checkbox-gp{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    margin-left: 30px; 
+    align-items: baseline;   
+}
+.SignIn-form .checkbox-gp label{
+    margin-left: 18px;
+}
+
+.SI-form-group button{
+    background-color: #297bff;
+    margin-top: 20px;
+}
+.SignIn-form .pwd{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    margin-left: 30px; 
+    align-items: baseline;
+    justify-content: flex-end;
+}
+.SignIn-form .pwd span{
+    margin-right: 5px;
+}
+
+.SU-form{
+    width: 340px;
+    border: 1px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.errmsg{
+    font-size: 12px;
+    color: red;
+}
