@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "919336b25e60254811862663a19accfd",
+    "revision": "0a6a655f720eee4a9c25ba158cde0059",
     "url": "/hackernews/index.html"
   },
   {
-    "revision": "dd5ee2337196eca308b0",
+    "revision": "a0e3a97e07998c973d75",
     "url": "/hackernews/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "af011cbc5fe3b66c4bb5",
-    "url": "/hackernews/static/css/main.3f7da247.chunk.css"
+    "revision": "931fe877160847e2fe78",
+    "url": "/hackernews/static/css/main.9d5f76ef.chunk.css"
   },
   {
-    "revision": "dd5ee2337196eca308b0",
-    "url": "/hackernews/static/js/2.9c6a60d2.chunk.js"
+    "revision": "a0e3a97e07998c973d75",
+    "url": "/hackernews/static/js/2.1e82912e.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/hackernews/static/js/2.9c6a60d2.chunk.js.LICENSE.txt"
+    "url": "/hackernews/static/js/2.1e82912e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "af011cbc5fe3b66c4bb5",
-    "url": "/hackernews/static/js/main.960ec000.chunk.js"
+    "revision": "931fe877160847e2fe78",
+    "url": "/hackernews/static/js/main.4f8deb0d.chunk.js"
   },
   {
     "revision": "0b86008cd6d74afb3390",
